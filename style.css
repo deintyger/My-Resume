@@ -1,0 +1,101 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(245, 226, 200);
+}
+.container {
+  height: 50%;
+  width: 50%;
+  margin: 30px 27%;
+  padding: 50px 50px;
+  filter: grayscale(100%);
+  border-style: ridge;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.hero-name {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: -90px 70px;
+  font-size: 28px;
+}
+
+.hero-name2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  margin: 100px 50px;
+  font-size: 25px;
+}
+
+.hero-image {
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 50px;
+  border: 2px solid black;
+}
+
+.icon-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: -85px;
+  margin-left: 90px;
+}
+
+.contact-icon1:hover,
+.contact-icon2:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  background-color: #e4c89fa4;
+}
+
+.contact-icon2:hover {
+  border-radius: 50%;
+}
+
+.summary-name,
+.education-name,
+.skills-name,
+.awards-name,
+.other-name,
+.work-name,
+.projects-name {
+  text-decoration: underline;
+}
+
+.date {
+  font-style: italic;
+  font-weight: 200;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media (min-width: 300px) and (max-width: 720px) {
+  .container {
+    margin: 70px 7%;
+    padding: 50px 10px;
+    width: 80%;
+  }
+
+  .hero-name {
+    font-size: 22px;
+    padding-left: 55px;
+    width: 60%;
+    margin: -100px 70px;
+  }
+
+  .hero-name2 {
+    font-size: 20px;
+    margin: 107px 50px;
+  }
+}
